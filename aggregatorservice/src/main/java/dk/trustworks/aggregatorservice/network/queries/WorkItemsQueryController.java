@@ -3,7 +3,7 @@ package dk.trustworks.aggregatorservice.network.queries;
 import dk.trustworks.aggregatorservice.repository.WorkItemsRepository;
 import io.vertx.reactivex.ext.web.RoutingContext;
 
-import static dk.trustworks.aggregatorservice.ActionHelper.ok;
+import static dk.trustworks.utils.ActionHelper.ok;
 
 
 public class WorkItemsQueryController {

@@ -14,8 +14,8 @@ import java.time.LocalDate;
 import java.util.Comparator;
 import java.util.stream.Collectors;
 
-import static dk.trustworks.marginservice.ActionHelper.*;
 import static dk.trustworks.marginservice.utils.BaseDataContainer.*;
+import static dk.trustworks.utils.ActionHelper.*;
 
 
 public class ExperienceConsultantQueryController {

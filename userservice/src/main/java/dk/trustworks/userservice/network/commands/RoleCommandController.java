@@ -4,8 +4,9 @@ import dk.trustworks.userservice.model.Role;
 import dk.trustworks.userservice.repositories.RoleRepository;
 import io.vertx.reactivex.ext.web.RoutingContext;
 
-import static dk.trustworks.userservice.ActionHelper.noContent;
-import static dk.trustworks.userservice.ActionHelper.onError;
+import static dk.trustworks.utils.ActionHelper.noContent;
+import static dk.trustworks.utils.ActionHelper.onError;
+
 
 //@Controller("/users")
 public class RoleCommandController { //extends Controller.Util {

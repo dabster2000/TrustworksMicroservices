@@ -1,4 +1,5 @@
-package dk.trustworks.marginservice;
+package dk.trustworks.utils;
+
 
 import io.reactivex.functions.Action;
 import io.reactivex.functions.BiConsumer;

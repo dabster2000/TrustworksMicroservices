@@ -13,7 +13,8 @@ import io.vertx.reactivex.ext.web.RoutingContext;
 
 import javax.crypto.SecretKey;
 
-import static dk.trustworks.userservice.ActionHelper.*;
+import static dk.trustworks.utils.ActionHelper.*;
+
 
 @BaseUrl("/users")
 public class UserQueryController {

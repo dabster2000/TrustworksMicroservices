@@ -3,7 +3,7 @@ package dk.trustworks.marginservice.network.queries;
 import dk.trustworks.marginservice.repository.ExperienceLevelRepository;
 import io.vertx.reactivex.ext.web.RoutingContext;
 
-import static dk.trustworks.marginservice.ActionHelper.ok;
+import static dk.trustworks.utils.ActionHelper.ok;
 
 
 public class ExperienceLevelQueryController {

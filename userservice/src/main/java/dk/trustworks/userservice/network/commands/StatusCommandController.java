@@ -4,8 +4,9 @@ import dk.trustworks.userservice.model.UserStatus;
 import dk.trustworks.userservice.repositories.StatusRepository;
 import io.vertx.reactivex.ext.web.RoutingContext;
 
-import static dk.trustworks.userservice.ActionHelper.noContent;
-import static dk.trustworks.userservice.ActionHelper.onError;
+import static dk.trustworks.utils.ActionHelper.noContent;
+import static dk.trustworks.utils.ActionHelper.onError;
+
 
 //@Controller("/users")
 public class StatusCommandController { //extends Controller.Util {

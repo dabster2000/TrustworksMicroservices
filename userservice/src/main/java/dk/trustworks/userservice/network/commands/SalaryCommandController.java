@@ -4,7 +4,8 @@ import dk.trustworks.userservice.model.Salary;
 import dk.trustworks.userservice.repositories.SalaryRepository;
 import io.vertx.reactivex.ext.web.RoutingContext;
 
-import static dk.trustworks.userservice.ActionHelper.*;
+import static dk.trustworks.utils.ActionHelper.*;
+
 
 //@Controller("/users")
 public class SalaryCommandController {//extends Controller.Util {
