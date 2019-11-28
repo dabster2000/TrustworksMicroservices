@@ -23,11 +23,11 @@ public class WorkItemsRepository {
     }
 
     public Single<List<WorkItem>> getAllWork() {
-        String sql = "select w.id, w.registered, w.workduration, w.useruuid, w.workas, cc.rate, t.uuid as taskuuid, p.uuid as projectuuid, c.uuid as clientuuid from " +
+        String sql = "select w.id, w.registered, w.workduration, w.useruuid, w.workas, cc.rate, t.uuid as taskuuid, p.uuid as projectuuid, cc2.uuid as clientuuid from " +
                 "            work as w " +
                 "            inner join task t on w.taskuuid = t.uuid " +
                 "            inner join project p on t.projectuuid = p.uuid " +
-                "            inner join client cc2 on cc2.uuid p.clientuuid " +
+                "            inner join client cc2 on cc2.uuid = p.clientuuid " +
                 "            inner join contract_project cp on p.uuid = cp.projectuuid " +
                 "            inner join contracts c on cp.contractuuid = c.uuid " +
                 "            inner join contract_consultants cc on c.uuid = cc.contractuuid and w.useruuid = cc.useruuid " +
