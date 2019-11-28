@@ -19,17 +19,9 @@ public class Client {
     private LocalDate created;
     private String name;
     private String accountmanager;
+    private String crmid;
 
     public Client() {
-    }
-
-    public Client(String uuid, boolean active, String contactname, LocalDate created, String name, String accountmanager) {
-        this.uuid = uuid;
-        this.active = active;
-        this.contactname = contactname;
-        this.created = created;
-        this.name = name;
-        this.accountmanager = accountmanager;
     }
 
     public Client(JsonObject json)  {
@@ -82,6 +74,14 @@ public class Client {
 
     public void setAccountmanager(String accountmanager) {
         this.accountmanager = accountmanager;
+    }
+
+    public String getCrmid() {
+        return crmid;
+    }
+
+    public void setCrmid(String crmid) {
+        this.crmid = crmid;
     }
 
     @Override

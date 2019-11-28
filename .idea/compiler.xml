@@ -16,7 +16,7 @@
     <bytecodeTargetLevel>
       <module name="aggregatorservice" target="1.8" />
       <module name="marginservice" target="1.8" />
-      <module name="newsservice" target="1.5" />
+      <module name="newsservice" target="1.8" />
       <module name="serviceutils" target="1.8" />
       <module name="userservice" target="1.8" />
     </bytecodeTargetLevel>

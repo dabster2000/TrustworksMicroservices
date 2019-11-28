@@ -11,5 +11,72 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-auth-shiro:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.21" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.shiro:shiro-core:1.2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.16" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-client:0.35.5" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-thrift:0.35.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.thrift:libthrift:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.9.0" level="project" />
+    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.13.0" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-core:0.35.5" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.32.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-util:0.32.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.32.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: io.jaegertracing:jaeger-tracerresolver:0.35.5" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing.contrib:opentracing-tracerresolver:0.1.6" level="project" />
+    <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt-api:0.10.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jsonwebtoken:jjwt-impl:0.10.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.jsonwebtoken:jjwt-jackson:0.10.7" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.11" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.21.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-core:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-common:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-buffer:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-transport:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-handler-proxy:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-socks:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-http2:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-resolver-dns:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-codec-dns:4.1.42.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-rx-java2:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.reactivex.rxjava2:rxjava:2.2.12" level="project" />
+    <orderEntry type="library" name="Maven: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-rx-gen:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-codegen:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.mvel:mvel2:2.3.1.Final" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-config:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-web:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-web-common:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-bridge-common:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-jdbc-client:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-sql-common:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: com.mchange:c3p0:0.9.5.4" level="project" />
+    <orderEntry type="library" name="Maven: com.mchange:mchange-commons-java:0.2.15" level="project" />
+    <orderEntry type="library" name="Maven: io.vertx:vertx-auth-common:3.8.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:28.0-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:2.8.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.errorprone:error_prone_annotations:2.3.2" level="project" />
+    <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.3" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.17" level="project" />
+    <orderEntry type="library" name="Maven: de.svenkubiak:jBCrypt:0.4" level="project" />
+    <orderEntry type="module" module-name="serviceutils" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.12.0" level="project" />
   </component>
 </module>
