@@ -1,6 +1,6 @@
 package dk.trustworks.aggregatorservice.model;
 
-import dk.trustworks.aggregatorservice.utils.BeanUtils;
+import dk.trustworks.utils.BeanUtils;
 import io.vertx.core.json.JsonObject;
 
 public class Task {

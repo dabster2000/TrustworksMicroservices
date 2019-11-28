@@ -5,9 +5,9 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import dk.trustworks.userservice.model.enums.ConsultantType;
 import dk.trustworks.userservice.model.enums.StatusType;
-import dk.trustworks.userservice.utils.BeanUtils;
-import dk.trustworks.userservice.utils.LocalDateDeserializer;
-import dk.trustworks.userservice.utils.LocalDateSerializer;
+import dk.trustworks.utils.BeanUtils;
+import dk.trustworks.utils.LocalDateDeserializer;
+import dk.trustworks.utils.LocalDateSerializer;
 import io.vertx.core.json.JsonObject;
 
 import java.time.LocalDate;

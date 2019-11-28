@@ -3,9 +3,9 @@ package dk.trustworks.aggregatorservice.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import dk.trustworks.aggregatorservice.utils.BeanUtils;
-import dk.trustworks.aggregatorservice.utils.LocalDateDeserializer;
-import dk.trustworks.aggregatorservice.utils.LocalDateSerializer;
+import dk.trustworks.utils.BeanUtils;
+import dk.trustworks.utils.LocalDateDeserializer;
+import dk.trustworks.utils.LocalDateSerializer;
 import io.vertx.core.json.JsonObject;
 
 import java.time.LocalDate;

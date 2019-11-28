@@ -27,6 +27,7 @@ public class WorkItemsRepository {
                 "            work as w " +
                 "            inner join task t on w.taskuuid = t.uuid " +
                 "            inner join project p on t.projectuuid = p.uuid " +
+                "            inner join client cc2 on cc2.uuid p.clientuuid " +
                 "            inner join contract_project cp on p.uuid = cp.projectuuid " +
                 "            inner join contracts c on cp.contractuuid = c.uuid " +
                 "            inner join contract_consultants cc on c.uuid = cc.contractuuid and w.useruuid = cc.useruuid " +

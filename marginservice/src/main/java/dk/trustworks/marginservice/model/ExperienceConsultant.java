@@ -1,6 +1,6 @@
 package dk.trustworks.marginservice.model;
 
-import dk.trustworks.marginservice.utils.BeanUtils;
+import dk.trustworks.utils.BeanUtils;
 import io.vertx.core.json.JsonObject;
 
 /**

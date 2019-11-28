@@ -6,14 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="serviceutils" />
         <module name="aggregatorservice" />
         <module name="marginservice" />
+        <module name="newsservice" />
         <module name="userservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aggregatorservice" target="1.8" />
       <module name="marginservice" target="1.8" />
+      <module name="newsservice" target="1.5" />
+      <module name="serviceutils" target="1.5" />
       <module name="userservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>

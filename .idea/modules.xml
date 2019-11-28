@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aggregatorservice/aggregatorservice.iml" filepath="$PROJECT_DIR$/aggregatorservice/aggregatorservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/marginservice/marginservice.iml" filepath="$PROJECT_DIR$/marginservice/marginservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newsservice/newsservice.iml" filepath="$PROJECT_DIR$/newsservice/newsservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceutils/serviceutils.iml" filepath="$PROJECT_DIR$/serviceutils/serviceutils.iml" />
       <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
     </modules>
   </component>

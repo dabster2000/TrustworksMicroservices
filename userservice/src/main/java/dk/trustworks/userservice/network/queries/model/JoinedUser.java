@@ -3,7 +3,6 @@ package dk.trustworks.userservice.network.queries.model;
 import dk.trustworks.userservice.model.enums.ConsultantType;
 import dk.trustworks.userservice.model.enums.RoleType;
 import dk.trustworks.userservice.model.enums.StatusType;
-import dk.trustworks.userservice.utils.BeanUtils;
 import io.vertx.core.json.JsonObject;
 
 import java.time.LocalDate;

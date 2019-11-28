@@ -1,6 +1,6 @@
 package dk.trustworks.userservice.model;
 
-import dk.trustworks.userservice.utils.BeanUtils;
+import dk.trustworks.utils.BeanUtils;
 import io.vertx.core.json.JsonObject;
 
 /**

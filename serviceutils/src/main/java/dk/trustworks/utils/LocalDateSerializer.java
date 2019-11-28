@@ -1,4 +1,4 @@
-package dk.trustworks.aggregatorservice.utils;
+package dk.trustworks.utils;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;

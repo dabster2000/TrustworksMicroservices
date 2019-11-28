@@ -1,4 +1,4 @@
-package dk.trustworks.aggregatorservice.utils;
+package dk.trustworks.utils;
 
 import io.vertx.core.json.JsonObject;
 
