@@ -32,7 +32,7 @@ public class WorkItemsRepository {
                 "            inner join contracts c on cp.contractuuid = c.uuid " +
                 "            inner join contract_consultants cc on c.uuid = cc.contractuuid and w.useruuid = cc.useruuid " +
                 "            where c.activefrom <= registered and c.activeto >= registered " +
-                "            and  w.registered >= '2014-02-01' AND w.registered < '2019-12-31' " +
+                "            and  w.registered >= '2014-02-01' " +
                 "            and w.workduration > 0 and c.status in ('TIME', 'SIGNED', 'CLOSED') " +
                 "            and cc.rate > 0.0 ";
 
